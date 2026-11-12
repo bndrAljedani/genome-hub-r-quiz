@@ -2,25 +2,6 @@
 
 A responsive, dependency-free English quiz built from the 200 questions supplied by Bandar.
 
-## Open locally
-Extract the ZIP and open `index.html`. Keep `app.js` and `questions.js` next to it. No installation or build is required.
-
-## النشر على GitHub Pages
-1. أنشئ مستودعًا جديدًا في GitHub (Public إذا كنت تستخدم الخطة المجانية).
-2. فك ضغط الملف، ثم ارفع محتوياته إلى جذر المستودع؛ يجب أن يكون index.html في الجذر، وليس ملف ZIP.
-3. من Settings → Pages، اختر Deploy from a branch.
-4. اختر main والمجلد / (root)، ثم Save.
-5. انتظر انتهاء النشر، وافتح رابط الموقع الذي يظهر في Pages.
-
-## Features
-- Exam mode: change answers freely; correctness stays hidden until submission.
-- Practice mode: instant feedback; first answer is final.
-- All 200, 100, 50, 20, or 10 questions per session.
-- Optional question and option shuffling, enabled by default.
-- Browser-local saved progress and session resume.
-- Flag questions, navigate freely, and review correct/incorrect/unanswered results.
-- Retry incorrect and unanswered questions only.
-- No accounts, external assets, analytics, packages, or server required.
 
 ## Answer review
 All 200 supplied answer keys were reviewed; no answer-key corrections were necessary. Q68 now explicitly asks about names without backticks, and Q148 clarifies that the result is a one-element list named b containing "R". Arithmetic was independently recalculated. R semantics were checked against the R reference documentation. An R runtime was not available for execution.
